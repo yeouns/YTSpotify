@@ -1,16 +1,23 @@
-# This is a sample Python script.
+# Order of events:
+# log into YouTube
+# get liked videos
+# create new playlist
+# search for songs on Spotify
+# add to playlist
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+class CreatePlaylist:
 
+    def __init__(self):
+        pass
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    def login_youtube(self):
+        pass
 
+    def find_liked_videos(self):
+        pass
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+    def get_song_spotify(self):
+        pass
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    def add_song(self):
+        pass
